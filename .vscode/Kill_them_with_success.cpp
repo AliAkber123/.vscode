@@ -1,4 +1,5 @@
 
+//Problem link : https://www.codechef.com/problems/PROC18B
 
 #include <iostream>
 #include <vector>
@@ -7,7 +8,7 @@
 using namespace std;
 
 int main() {
-	// your code goes here
+	
 	int t;
 	cin>>t;
 	while(t--)
@@ -39,7 +40,7 @@ int main() {
 	            z=(z+v[i])/2.0;
 	        }
 	    }
-	   // cout<<z<<endl;
+	   
 	    cout<<fixed<<setprecision(10)<<z<<endl;
 	    
 	}
